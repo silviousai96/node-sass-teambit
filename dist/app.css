@@ -1,1 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+img {
+  width: 100%;
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+.narrow-container {
+  width: 75%;
+  margin: auto;
+}
+
+/*HEADER*/
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #6e4a2d;
+}
+header nav .logo img {
+  width: 100px;
+}
+header nav .nav-menu li {
+  display: inline-block;
+  padding-left: 10px;
+}
+header nav .nav-menu a {
+  color: #6e4a2d;
+  text-decoration: none;
+}
+header nav .nav-menu .button-signup {
+  border: 1px solid #2e4790;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 5px;
+}
+header nav .nav-menu .button-signup img {
+  width: 20px;
+  vertical-align: sub;
+}
+header nav .nav-menu .button-signup a {
+  color: #2e4790;
+}

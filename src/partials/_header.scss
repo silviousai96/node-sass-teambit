@@ -1,0 +1,43 @@
+/*HEADER*/
+
+header {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0;
+        border-bottom: 1px solid $primary_color;
+        .logo {
+            img {
+                width: 100px;
+            }
+        }
+        .nav-menu {
+            li {
+                display: inline-block;
+                padding-left: 10px;
+            }
+
+            a {
+                color: $primary_color;
+                text-decoration: none;
+            }
+
+            .button-signup {                
+                border: 1px solid $button_color;
+                border-radius: 5px;
+                padding: 5px;
+                margin-left:5px ;
+                img {
+                    width: 20px;
+                    vertical-align:sub;
+                }
+                
+                a {
+                    color: $button_color;
+                }
+
+            }
+        }
+    }
+}
+
