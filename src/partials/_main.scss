@@ -135,4 +135,35 @@ main {
         }
     }
 
+    .section-white-three {
+        display: flex;
+        @include padding-white-section;
+        
+        .c-left-three {
+            @include column-width;
+        }
+
+        .c-right-three {
+            @include column-width;
+
+            @include padding-white-text;
+        }        
+    }
+
+    .section-white-four {
+        display: flex;
+        @include padding-white-section;
+        
+        .c-left-four {
+            @include column-width;
+
+            @include padding-white-text;
+        }
+
+        .c-right-four {
+            @include column-width;
+
+        }
+    }
+
 }

@@ -194,3 +194,41 @@ main .section-white-two .c-left-two img {
 main .section-white-two .c-right-two {
   width: 50%;
 }
+main .section-white-three {
+  display: flex;
+  padding-top: 40px;
+}
+main .section-white-three .c-left-three {
+  width: 50%;
+}
+main .section-white-three .c-right-three {
+  width: 50%;
+}
+main .section-white-three .c-right-three p {
+  padding: 30px 0;
+}
+main .section-white-three .c-right-three a {
+  text-decoration: none;
+}
+main .section-white-three .c-right-three img {
+  padding-top: 20px;
+}
+main .section-white-four {
+  display: flex;
+  padding-top: 40px;
+}
+main .section-white-four .c-left-four {
+  width: 50%;
+}
+main .section-white-four .c-left-four p {
+  padding: 30px 0;
+}
+main .section-white-four .c-left-four a {
+  text-decoration: none;
+}
+main .section-white-four .c-left-four img {
+  padding-top: 20px;
+}
+main .section-white-four .c-right-four {
+  width: 50%;
+}
