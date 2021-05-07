@@ -19,6 +19,25 @@ body {
   padding: 40px 0;
 }
 
+.jumbo-buttons {
+  padding-top: 30px;
+  font-size: 13px;
+}
+.jumbo-buttons a {
+  text-decoration: none;
+  background-color: #2e4790;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+.jumbo-buttons a img {
+  width: 20px;
+  vertical-align: sub;
+}
+.jumbo-buttons p {
+  padding-top: 20px;
+}
+
 .p-right-white {
   padding-right: 300px;
 }
@@ -67,7 +86,8 @@ header nav .nav-menu .button-signup a {
 main {
   /*Jumbotron*/
   /*pink-sections*/
-  /*section 2*/
+  /*white sections 1-2-3-4*/
+  /*section-statement*/
 }
 main .jumbotron {
   width: 75%;
@@ -84,21 +104,6 @@ main .jumbotron .j-column-left h2 {
 }
 main .jumbotron .j-column-left p {
   padding: 10px 0;
-}
-main .jumbotron .j-column-left .jumbo-buttons {
-  padding-top: 30px;
-  font-size: 13px;
-}
-main .jumbotron .j-column-left .jumbo-buttons a {
-  text-decoration: none;
-  background-color: #2e4790;
-  color: white;
-  padding: 5px 5px;
-  border-radius: 5px;
-}
-main .jumbotron .j-column-left .jumbo-buttons a img {
-  width: 20px;
-  vertical-align: sub;
 }
 main .jumbotron .j-column-left .jumbo-buttons p {
   padding-top: 20px;
@@ -231,4 +236,35 @@ main .section-white-four .c-left-four img {
 }
 main .section-white-four .c-right-four {
   width: 50%;
+}
+main .section-statement {
+  text-align: center;
+}
+main .section-statement h2 {
+  margin-bottom: 25px;
+}
+main .section-statement .box-review {
+  margin: auto;
+  background-color: white;
+  text-align: left;
+  font-size: 15px;
+  width: 50%;
+  border: 1px solid #2e4790;
+  border-radius: 10px;
+  padding: 15px;
+}
+main .section-statement .box-review .co-founders {
+  padding-top: 10px;
+  display: flex;
+}
+main .section-statement .box-review .co-founders img {
+  width: 50px;
+  padding-right: 10px;
+}
+main .section-statement .box-review .co-founders div {
+  display: flex;
+  flex-direction: column;
+}
+main .section-statement .box-review .co-founders div .founders-name {
+  color: #2e4790;
 }

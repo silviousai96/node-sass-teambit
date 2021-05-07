@@ -19,6 +19,25 @@ body {
     padding: 40px 0;
 }
 
+.jumbo-buttons {
+    padding-top: 30px;
+    font-size: 13px;
+    a {
+        text-decoration: none;
+        background-color: $button_color;
+        color: white;
+        padding: 5px 5px;
+        border-radius: 5px;
+        img {
+            width: 20px;
+            vertical-align: sub;
+        }
+    }
+    p {
+        padding-top: 20px;
+    }
+}
+
 .p-right-white {
     padding-right: 300px;
 }
