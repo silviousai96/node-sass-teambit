@@ -1,6 +1,7 @@
 /*HEADER*/
 
 header {
+    @include narrow-section;
     nav {
         display: flex;
         justify-content: space-between;

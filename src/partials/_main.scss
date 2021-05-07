@@ -1,0 +1,138 @@
+/*MAIN*/
+
+main {
+    /*Jumbotron*/
+    .jumbotron {
+        @include narrow-section;
+        display: flex;
+        padding: 30px 0;
+        
+        .j-column-left {
+            @include column-width;
+            h2 {
+                line-height: 45px;
+                font-size: $title_font_size;
+            }
+
+            p {
+                padding: 10px 0;
+            }
+            .jumbo-buttons {
+                padding-top: 30px;
+                font-size: 13px;
+                a {
+                    text-decoration: none;
+                    background-color: $button_color;
+                    color: white;
+                    padding: 5px 5px;
+                    border-radius: 5px;
+                    img {
+                        width: 20px;
+                        vertical-align: sub;
+                    }
+                }
+                p {
+                    padding-top: 20px;
+                }
+            }
+        }
+
+        .j-column-right {
+            @include column-width;
+            
+        }
+    }
+    /*pink-sections*/
+    .pink-section {
+        padding-top: 40px;
+        
+        h3 {
+            padding-bottom: 20px;
+        }
+
+        .three-img {
+            @include narrow-section;
+            display: flex;
+            justify-content:space-evenly;
+            padding-top: 20px;
+            div {
+                width: calc(100% / 3);
+
+                img{
+                    width: 30%;
+                    height: auto;
+                }
+
+            }
+        }
+
+        img {
+            width: 20%;
+            padding: 40px 0;
+        }
+
+    }
+
+
+    .pink-section-two {
+        @include narrow-section;
+        border-top: 1px solid $primary_color;
+
+        h3 {
+            padding-top: 40px;
+        }
+
+        .three-img-second {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 40px;
+            div {
+                width: calc(100% / 3);
+                p {
+                    padding: 20px 0;
+                }
+                img {
+                    width: 30%;
+                    height: 30%;
+                }
+            }
+        }
+
+        img {
+            width: 25%;
+        }
+    }
+
+    /*section 2*/
+    .section-white {
+        display: flex;
+        @include padding-white-section;
+        
+        .c-left {
+            @include column-width;
+        }
+
+        .c-right {
+            @include column-width;
+
+            @include padding-white-text;
+        }
+    }
+
+    .section-white-two {
+        display: flex;
+        @include padding-white-section;
+        
+        .c-left-two {
+            @include column-width;
+
+            @include padding-white-text;
+        }
+
+        .c-right-two {
+            @include column-width;
+
+        }
+    }
+
+}

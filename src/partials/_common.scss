@@ -10,9 +10,19 @@ img {
 
 body {
     font-family: 'Open Sans';
+    color: $primary_color;
 }
 
-.narrow-container {
-    width: 75%;
-    margin: auto;
+.bg-pink {
+    background-color: $secondary_color;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.p-right-white {
+    padding-right: 300px;
+}
+
+.p-left-white {
+    padding-left: 300px;    
 }

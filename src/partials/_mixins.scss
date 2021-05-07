@@ -1,0 +1,26 @@
+@mixin narrow-section {
+    width: 75%;
+    margin: auto;
+}
+
+@mixin column-width {
+    width: 50%;
+}
+
+@mixin padding-white-section {
+    padding-top: 40px;
+}
+
+@mixin padding-white-text {
+    p {
+        padding: 30px 0; 
+     }
+
+     a {
+         text-decoration: none;
+     }
+
+     img {
+         padding-top: 20px;
+     }
+}
