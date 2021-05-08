@@ -48,7 +48,7 @@ body {
 
 /*HEADER*/
 header {
-  width: 75%;
+  width: 80%;
   margin: auto;
 }
 header nav {
@@ -90,7 +90,7 @@ main {
   /*section-statement*/
 }
 main .jumbotron {
-  width: 75%;
+  width: 80%;
   margin: auto;
   display: flex;
   padding: 30px 0;
@@ -118,7 +118,7 @@ main .pink-section h3 {
   padding-bottom: 20px;
 }
 main .pink-section .three-img {
-  width: 75%;
+  width: 80%;
   margin: auto;
   display: flex;
   justify-content: space-evenly;
@@ -136,7 +136,7 @@ main .pink-section img {
   padding: 40px 0;
 }
 main .pink-section-two {
-  width: 75%;
+  width: 80%;
   margin: auto;
   border-top: 1px solid #6e4a2d;
 }
@@ -267,4 +267,48 @@ main .section-statement .box-review .co-founders div {
 }
 main .section-statement .box-review .co-founders div .founders-name {
   color: #2e4790;
+}
+
+footer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  padding: 30px 0;
+}
+footer .left-footer {
+  display: flex;
+  width: 30%;
+  padding-right: 20px;
+}
+footer .left-footer img {
+  width: 60%;
+}
+footer .left-footer p {
+  padding-left: 5px;
+  font-weight: 600;
+}
+footer .left-footer p a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #2e4790;
+}
+footer .right-footer {
+  display: flex;
+  width: 70%;
+}
+footer .right-footer ul {
+  list-style-type: none;
+  width: calc( 100% / 5);
+}
+footer .right-footer ul li {
+  padding-bottom: 10px;
+}
+footer .right-footer ul li h3 {
+  padding-bottom: 20px;
+}
+footer .right-footer ul li a {
+  text-decoration: none;
+  color: #6e4a2d;
+  font-size: 15px;
 }
